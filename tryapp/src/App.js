@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Header from './Header';
 
-function Header() {
-  return <h1>Wow! This is react</h1>;
-}
 function App() {
-  return <Header />;
+  return (
+    <div className="App">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
